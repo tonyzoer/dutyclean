@@ -928,6 +928,8 @@ h1:after {
     font-size: 11px;
     line-height: 1.1;
   }
+  .nav-li{font-size: 0.93em;}
+  .nav-drop-li{font-size: 0.7em;}
   #navbar-brand {
     height: 61px;
     }
