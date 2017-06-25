@@ -602,7 +602,7 @@ h1:after {
 .block-4 {
   margin-bottom: 86px;
   color: #fff;
-  padding: 78px 310px 81px 28px;
+  /*padding: 78px 310px 81px 28px;*/
   margin-top: 16px;
   position: relative
 }
@@ -617,11 +617,11 @@ h1:after {
 }
 
 .block-4 a {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 226px;
+  /*position: absolute;*/
+  /*right: 0;*/
+  /*top: 0;*/
+  /*bottom: 0;*/
+  /*width: 226px;*/
   font-size: 36px;
   line-height: 52px;
   background-color: #5c627c;
