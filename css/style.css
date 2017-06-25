@@ -875,26 +875,12 @@ h1:after {
   margin: 0 auto;
   width: 100%;
 }
-/*.em1{
-  font-size:1em;
+.navbar-brand {
+  padding: 0px;
 }
-.em2{
-  font-size:2em;
+.navbar-brand img{
+  height: 100%;
 }
-.em3{
-  font-size:3em;
-}
-.em4{
-  font-size:4em;
-}
-.em5{
-  font-size:5em;
-}
-.tel-ul{
-  font-size: 14px;
-  line-height: 1.42857143;
-}*/
-
 @media only screen and (max-width: 767px) {
   .em1{
     font-size:0.4em;
@@ -933,6 +919,28 @@ h1:after {
   }
   .em5{
     font-size:1.9em;
+  }
+  .tel-ul{
+    font-size: 11px;
+    line-height: 1.1;
+  }
+
+}
+@media only screen and (min-width: 1142px) {
+  .em1{
+    font-size:1em;
+  }
+  .em2{
+    font-size:2.0em;
+  }
+  .em3{
+    font-size:3.0em;
+  }
+  .em4{
+    font-size:4em;
+  }
+  .em5{
+    font-size:5em;
   }
   .tel-ul{
     font-size: 14px;
