@@ -895,7 +895,7 @@ h1:after {
   line-height: 1.42857143;
 }*/
 
-@@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .em1{
     font-size:0.4em;
   }
