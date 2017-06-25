@@ -875,7 +875,7 @@ h1:after {
   margin: 0 auto;
   width: 100%;
 }
-.em1{
+/*.em1{
   font-size:1em;
 }
 .em2{
@@ -893,7 +893,7 @@ h1:after {
 .tel-ul{
   font-size: 14px;
   line-height: 1.42857143;
-}
+}*/
 
 @@media only screen and (max-width: 767px) {
   .em1{
