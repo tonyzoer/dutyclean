@@ -902,7 +902,9 @@ h1:after {
     line-height: 1.42857143;
     padding: 15px 15px 0px 15px;
   }
-
+  #navbar-brand {
+  height:50px;
+  }
 }
 @media only screen and (max-width: 1142px) and (min-width: 768px) {
   .em1{
@@ -924,7 +926,9 @@ h1:after {
     font-size: 11px;
     line-height: 1.1;
   }
-
+  #navbar-brand {
+    height: 61px;
+    }
 }
 @media only screen and (min-width: 1142px) {
   .em1{
@@ -946,5 +950,8 @@ h1:after {
     font-size: 14px;
     line-height: 1.42857143;
   }
+  #navbar-brand {
+    height: 75px;
+    }
 
 }
