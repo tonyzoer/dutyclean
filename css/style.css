@@ -148,10 +148,11 @@ h1, header, header .rel {
   position: relative
 }
 
-/*html {
-  zoom: 90%;
-  width: 100%
-}*/
+html {
+  /*zoom: 90%;*/
+  width: 100%;
+  overflow-x: hidden;
+}
 
 /*a[href^="tel:"] {
   color: inherit;
@@ -928,7 +929,7 @@ h1:after {
     font-size: 11px;
     line-height: 1.1;
   }
-  .nav-li{font-size: 0.93em;}
+  .nav-li{font-size: 0.85em;}
   .nav-drop-li{font-size: 0.7em;}
   #navbar-brand {
     height: 61px;
@@ -954,6 +955,8 @@ h1:after {
     font-size: 14px;
     line-height: 1.42857143;
   }
+  .nav-li{font-size: 1.85em;}
+  .nav-drop-li{font-size: 1.1em;}
   #navbar-brand {
     height: 75px;
     }
