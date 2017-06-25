@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Главная</title>
+<meta charset="utf-8">
+<meta name="yandex-verification" content="088b6ca1e72418d8" />
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.png">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/script.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<!-- <script src="js/jquery.mobilemenu.js"></script> -->
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/owl.carousel.js"></script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/jquery.mobile.customized.min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.cslider.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.28468.js"></script> -->
+<!--<![endif]-->
+<script>
+ $(window).load(function(){
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});
+
+  $('#camera_wrap').camera({
+    loader: false,
+    pagination: false ,
+    minHeight: '400',
+    thumbnails: false,
+    height: '38.07291666666667%',
+    caption: false,
+    navigation: true,
+    fx: 'mosaic'
+  });
+
+  $("#owl").owlCarousel({
+    items : 3, //10 items above 1000px browser width
+    itemsDesktop : [995,1], //5 items between 1000px and 901px
+    itemsDesktopSmall : [767, 1], // betweem 900px and 601px
+    itemsTablet: [700, 1], //2 items between 600 and 0
+    itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+    navigation : true,
+    pagination :  false
+  });
+  $("#owl2").owlCarousel({
+    items : 3, //10 items above 1000px browser width
+    itemsDesktop : [995,1], //5 items between 1000px and 901px
+    itemsDesktopSmall : [767, 1], // betweem 900px and 601px
+    itemsTablet: [700, 1], //2 items between 600 and 0
+    itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+    navigation : true,
+    pagination :  false
+  });
+});
+</script>
+<!-- <script type="text/javascript">
+  $(function() {
+
+    $('#da-slider').cslider({
+      autoplay	: true,
+      bgincrement	: 450
+    });
+
+  });
+</script> -->
+<!--[if lt IE 8]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+
+<body class="page1" id="top">
+<!--==============================
+              header
+=================================-->
+<header>
+  <div class="container_12">
+
+    <div class="grid_12">
+      </div>
+    <div class="clear"></div>
+  </div>
+  <section id="stuck_container">
+  <!--==============================
+              Stuck menu
+  =================================-->
+    <div class="container_12">
+        <div class="grid_12">
+          <img src="/images/logo-slider.png" alt="" style="height:67px;padding: 8px;margin: 0;">
+          <div class="navigation">
+            <nav>
+              <ul class="sf-menu">
+               <li class="current"><a href="index.html">Главная</a></li>
+               <li><a href="about.html">О Нас</a>
+                <ul>
+                  <li> <a href="devices.html">Оборудование</a></li>
+
+                  <li><a href="gallery.php">Галерея</a></li>
+                </ul>
+               </li>
+               <li><a>Услуги</a>
+                 <ul>
+                   <li><a href="mission.html">Уборка</a></li>
+                   <li><a href="himmission.html">Хим. Чистка</a></li>
+                   <li><a href="washing.html">Мойка</a></li>
+                   <li><a href="tidy.html">Вывоз Мусора</a></li>
+                   <li><a href="greening.html">Озеленение</a></li>
+                   <li><a href="snowcleaning.html">Уборка Снега</a></li>
+                   <li><a href="grinding.html">Шлифовка Мрамора</a></li>
+                 </ul>
+             </li>
+               <li> <a href="contacts.html">Контакты</a></li>
+              </ul>
+              <span>
+                <img src="images/icons/phone-icon.png" alt="" height="48" width="48" style="position: absolute;
+      right: 120px;
+      top: 10px;">
+              <ul style="    position: absolute;
+    right: 10px;
+    top: -5px;">
+                <li>+380963717250</li>
+                <li>+380957469375</li>
+                <li>+380635970175</li>
+              </ul>
+              </span>
+            </nav>
+            <div class="clear"></div>
+          </div>
+         <div class="clear"></div>
+     </div>
+     <div class="clear"></div>
+    </div>
+  </section>
+</header>
+<section class="slider_wrapper">
+  <div id="camera_wrap" class="">
+    <div data-src="images/1.jpg"></div>
+    <div data-src="images/2.jpg"></div>
+    <div data-src="images/3.jpg"></div>
+    <div data-src="images/4.jpg"></div>
+    <div data-src="images/5.jpg"></div>
+
+      <!-- <div data-src="images/slide2.jpg"></div> -->
+  </div>
+</section>
+
+
+<!--=====================
+          Content
+======================-->
+<section id="content">
+  <div class="container_12">
+    <div class="grid_4" >
+      <div class="banner" style="height:516px;" >
+        <a href="#" class="banner_title" style="background-color:#ab0096">Генеральная уборка<br>
+</a>
+        <div class="maxheight" style="background-color:#ab0096"><h3 style="margin-bottom: 0px; padding-top: 0px;">Скидка 10%</h3><br>
+          <h4 style="color:white;">Осталось:</h4>
+          <div id="countdown">
+  <div id='tiles'></div>
+  <div class="labels">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    <div class="grid_4" >
+      <div class="banner" >
+        <a class="banner_title" style="background-color:#ffbc00;">О Нас <br>
+          <br>
+</a>
+        <div class="maxheight" style="background-color:#ffbc00; text-align:left;">
+<ul class="list-1 about">
+  <li><img src="images/icons/1.png" style="border-top-left-radius: 0px;border-top-right-radius: 0px;" alt='icon' width="40" height="40" />Работаем 24 часа в сутки!</li>
+  <li><img src="images/icons/3.png" alt='icon' width="40" height="40" />Професиональное оборудование!</li>
+  <li><img src="images/icons/5.png" alt='icon' width="40" height="40" />Множество акций и предложений!</li>
+  <li><img src="images/icons/4.png" alt='icon' width="40" height="40" />Выполняем работу любой сложности!</li>
+  <li><img src="images/icons/2.png" alt='icon' width="40" height="40" />Самые низкие цены для клиентов!</li>
+</ul>
+        </div>
+      </div>
+    </div>
+    <div class="grid_4" >
+      <div class="banner" >
+        <a href="contacts.html" class="banner_title" style="background-color:rgb(0, 189, 232);">Оформить <br>
+заказ</a>
+        <div class="maxheight" style="background-color:rgb(0, 189, 232);"><img src="images/icon3.png" alt="">
+      </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="container_12">
+    <h3>О компании</h3>
+    <p>Вас интересует уборка офисов, квартир, коттеджей, услуги мойки или химчистки? Тогда вы обратились по адресу! Наша компания вот уже более 5 лет работает в сфере профессионального клининга, предоставляя качественные и комплексные услуги по уборке помещений - и в этом убедились уже более 300 клиентов.
+
+Наши специалисты используют только высококачественные чистящие средства и оборудование последних поколений, готовы прибыть в Вашу квартиру, офис или дом в течение 1-2 часов и в сжатые сроки привести все в порядок. Цены Вас тоже приятно удивят.
+Все наши сотрудники проходят строгий отбор в процессе найма на работу. Мы специализируемся на уборке квартир. Мы проводим обычную уборку, генеральную уборку, а также уборку квартир после ремонта.
+При убоке применяется профессиональнное оборудование Kärcher и Edic,
+а также качественная химия, благодаря этому, исключается вероятность повреждения различных покрытий. Наши клиенты могут быть абсолютно уверены в том, что уборка
+будет выполнена качественно и в самые сжатые сроки!</p>
+<div class="clear"></div>
+  </div>
+  <article class="carousel_wrapper">
+    <div class="container_12">
+      <div class="grid_12">
+        <h3 style="text-align: center; color:white;">Наши услуги</h3>
+        <div id="owl">
+          <div class="item">
+            <div class="banner testemonium" style="height:690px;" >
+              <div class="banner_title" style="padding:0px;"><img src="images\testemonium\1.jpg" width="370" height="370"/ style="padding:0px;"><a>Уборка коттеджей</a></img></div>
+              <p>Генеральная уборка в коттедже больше не будет вашей проблемой.</p>
+              <a href="mission.html#house" class="owl_link">Подробней</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="banner testemonium" style="height:690px;">
+              <div class="banner_title" style="padding:0px;"><img src="images/testemonium/2.jpg" width="370" height="370"/ style="padding:0px;"><a>Уборка <br>квартир</a></img></div>
+              <p>Мы проводим обычную уборку, генеральную уборку, а также уборку квартир после ремонта.</p>
+              <a href="mission.html" class="owl_link">Подробней</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="banner testemonium" style="height:690px;">
+              <div class="banner_title" style="padding:0px;"><img src="images/testemonium/3.jpg" width="370" height="370"/ style="padding:0px;"><a style="font-size: 42px;">Уборка ресторанов,баров</a></img></div>
+              <p>Чистота – первое, на что обращают внимание посетители ресторанов и кафе.</p>
+              <a href="mission.html#cafe" class="owl_link">Подробней</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="banner testemonium" style="height:690px;">
+              <div class="banner_title" style="padding:0px;"><img src="images/testemonium/4.jpg" width="370" height="370"/ style="padding:0px;"><a style="font-size: 38px;">После строительные работы</a></img></div>
+              <p>После строительства любое помещение мало похоже на жилое.</p>
+              <a href="mission.html" class="owl_link">Подробней</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="banner testemonium" style="height:690px;">
+              <div class="banner_title no_after" style="padding:0px;"><img src="images/testemonium/5.jpg" width="370" height="370"/ style="padding:0px;"><a>Химчистка</a></img></div>
+              <p>Химчистка мягкой мебели - это своеобразная стирка, которая происходит в три этапа:
+              <br>
+              удаление грязи пятен и микроорганизмов.
+            </p>
+              <a href="himmission.html#" class="owl_link">Подробней</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </article>
+  <div class="container_12">
+    <h3 style=" text-align: center;">Почему мы № <span style="font-size:58px;font-family: initial;">1</span></h3>
+    <div class="grid_6">
+      <div class="block-2">
+        <img src="images/b_icon3.png" alt="">
+        <div class="text1"><a href="#">Чисто и быстро</a></div>
+        Сроки, которые оговариваются с клиентами, соблюдаются с безукоризненной точностью. Более того, мы всегда стремимся сдать работу раньше заявленного срока.      </div>
+    </div>
+    <div class="grid_6">
+      <div class="block-2">
+        <img src="images/b_icon4.png" alt="">
+        <div class="text1"><a href="#">Пожелания клиентов</a></div>
+        Mы всегда учитываем все пожелания клиентов и воплощаем их в виде готовых решений. В итоге, Вы получаете именно то, что хотите.      </div>
+    </div>
+    <div class="grid_6">
+      <div class="block-2">
+        <img src="images/b_icon2.png" alt="">
+        <div class="text1"><a href="#">Высококвалифицированый персонал</a></div>
+        Наш штат работников состоит только из высококлассных специалистов с опытом работы,не менне 10 лет.
+      </div>
+    </div>
+    <div class="grid_6">
+      <div class="block-2">
+        <img src="images/b_icon1.png" alt="">
+        <div class="text1"><a href="#">Наш долг-чистота вашего дома</a></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear sep-1"></div>
+
+<article class="carousel_wrapper">
+  <div class="container_12">
+    <h3 style="text-align: center; color:white;">Отзывы</h3>
+    <div class="grid_12">
+      <div id="owl2">
+        <div class="item">
+          <div class="banner-1" style="height: 350px;">
+            <div class="banner_title block-1" style="padding:0px;"><img src="images/page1_img1.jpg" width="100" height="100" style="margin-left: 20px;"/></div>
+            <a class="owl_link">Анатолий</a>
+            <p>"Проводили большой семейный праздник в квартире. После мероприятия нужна была генеральная уборка - обратились сюда.
+              В назначенное время прибыли уборщики, буквально за пару часов привели квартиру в идеальное состояние, убрали весь мусор, вымели, почистили, будто бы в квартире ничего и не происходило накануне. Спасибо большое! Вы молодцы!"
+</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="banner-1" style="height: 350px;">
+            <div class="banner_title block-1" style="padding:0px;"><img src="images/page1_img2.jpg" width="100" height="100" style="margin-left: 20px;"/></div>
+            <a class="owl_link">Нина</a>
+            <p>"Делали ремонт в квартире. После нужно было как-то привести все в порядок, больно много пыли, мусора и прочей строительной грязи накопилось.
+               Заказали уборку. За несколько часов умельцы сделали из нашей заваленной строительной пылью квартиры сияющий и уютный уголок,
+               мы будто зашли в другую квартиру. Спасибо!"</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="banner-1" style="height: 350px;">
+            <div class="banner_title block-1" style="padding:0px;"><img src="images/page1_img3.jpg" width="100" height="100"/ style="margin-left: 20px;"></div>
+            <a class="owl_link">Арсений</a>
+            <p>"Время от времени заказываем в наш небольшой офис генеральную уборку.
+              Работа у нас напряженная, за чистотой не всегда есть время следить, потому в кабинете очень часто царит жуткий бардак.
+               Но ваши «золушки» - настоящие профессионалы уборки. Окна, полы, поверхности - все блистает каждый раз.
+              Все делают быстро и безупречно! Будем и дальше к вам обращаться, спасибо!"</p>
+          </div>
+        </div>
+      </div>
+      <div class="banner-1" style="right:20px; height:70px; width:300px; float:right;margin-top:0px;margin-bottom:0px;bottom: 73px;position: absolute;    z-index: 998;">
+        <a class="owl_link" style="padding-top: 10px; color:black;" href="comments.html">Оставить отзыв</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+</article>
+</section>
+<!--==============================
+              footer
+=================================-->
+<footer id="footer">
+  <div class="container_12">
+    <div class="grid_12">
+      <h1 class="logo">
+        <a href="index.html">
+          DUTY CLEAN
+        </a>
+      </h1>
+      <div class="socials">
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-google-plus"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+      </div>
+      <div class="sub-copy">&copy; <span id="copyright-year"></span>| <a href="#">Privacy Policy</a> <br> Website created by <a href="https://github.com/tonyzoer" rel="nofollow">Tony Zoer</a></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+<a href="#" id="toTop" class="fa fa-angle-up"></a>
+<link rel="shortcut icon" href="images/favicon.png" />
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/superfish.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/countdown.css">
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
+<script src="js/countdown.js"></script>
+</body>
+</html>
