@@ -902,6 +902,8 @@ h1:after {
     line-height: 1.42857143;
     padding: 15px 15px 0px 15px;
   }
+  .nav-li{font-size: 2em;}
+  .nav-drop-li{font-size: 1em;}
   #navbar-brand {
   height:50px;
   }
