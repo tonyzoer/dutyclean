@@ -884,22 +884,22 @@ h1:after {
 }
 @media only screen and (max-width: 767px) {
   .em1{
-    font-size:0.4em;
+    font-size:0.7em;
   }
   .em2{
-    font-size:0.6em;
+    font-size:1.3em;
   }
   .em3{
-    font-size:0.8em;
+    font-size:1.9em;
   }
   .em4{
-    font-size:1em;
+    font-size:2.5em;
   }
   .em5{
-    font-size:1.2em;
+    font-size:3.1em;
   }
   .tel-ul{
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.42857143;
     padding: 15px 15px 0px 15px;
   }
@@ -911,19 +911,19 @@ h1:after {
 }
 @media only screen and (max-width: 1142px) and (min-width: 768px) {
   .em1{
-    font-size:0.7em;
+    font-size:0.9em;
   }
   .em2{
-    font-size:1.0em;
+    font-size:1.5em;
   }
   .em3{
-    font-size:1.3em;
+    font-size:2em;
   }
   .em4{
-    font-size:1.6em;
+    font-size:2.5em;
   }
   .em5{
-    font-size:1.9em;
+    font-size:3.1em;
   }
   .tel-ul{
     font-size: 11px;
