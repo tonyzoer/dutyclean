@@ -167,7 +167,7 @@ body {
   background: #ffbc00;
   color: #363535;
   font: 300 22px/32px 'Open Sans', sans-serif
-
+  word-wrap: break-word;
 }
 
 .ic {
