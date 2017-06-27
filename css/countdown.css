@@ -2,7 +2,9 @@
   position: relative;
   z-index: 1
 }
-
+#countdown{
+  padding-bottom:30px;
+}
 #countdown #tiles>span {
   width: 58px;
   max-width: 58px;
@@ -15,7 +17,7 @@
   background-image: -ms-linear-gradient(top, #bbb, #eee);
   background-image: -o-linear-gradient(top, #bbb, #eee);
   border-top: 1px solid #fff;
-  border-radius: 3px;
+  border-radius: 15px;
   box-shadow: 0 0 12px rgba(0, 0, 0, .7);
   margin: 0 7px;
   padding: 18px 0;
