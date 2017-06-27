@@ -2,9 +2,7 @@
   position: relative;
   z-index: 1
 }
-#countdown{
-  padding-bottom:30px;
-}
+
 #countdown #tiles>span {
   width: 17%;
   max-width: 58px;
