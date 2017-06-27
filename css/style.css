@@ -152,6 +152,8 @@ html {
   /*zoom: 90%;*/
   width: 100%;
   overflow-x: hidden;
+  overflow: hidden;
+   overflow-y: auto;
 }
 
 /*a[href^="tel:"] {
@@ -168,6 +170,9 @@ body {
   color: #363535;
   font: 300 22px/32px 'Open Sans', sans-serif;
   word-wrap: break-word;
+  overflow-x: hidden;
+  overflow: hidden;
+   overflow-y: auto;
 }
 
 .ic {
